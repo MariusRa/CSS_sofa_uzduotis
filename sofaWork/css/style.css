@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+link {
+	font-family: 'Lora', serif;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+section {
+	padding: 1%;
+	border-top: solid;
+	border-bottom: solid;
+	border-color: lightgray;
+}
+article {
+	padding: 4% 0;
+	display: inline-block;
+	width: 24%;
+	text-align: left;
+}
+article a {
+	text-decoration: none;
+	color: #000;
+}
+.fa-angle-double-right {
+	color: lightgray;
+}
+article h2, p {
+	padding: 2%;
+}
+.fa-artstation {
+	color: grey;
+}
+
+@media (max-width: 999px) {
+	article	{
+		display: inline-block; /*  */
+		text-align: justify;
+		width: 45%;
+	}
+	header img {
+		max-width: 100%; /* nurodo, kad img negali uzimti daugiau, nei visas plotis. */
+	}
+}
+
+@media (max-width: 768px) {
+	article	{
+		display: block; /*  */
+		text-align: justify;
+		width: 100%;
+	}
+	header img {
+		max-width: 100%; /* nurodo, kad img negali uzimti daugiau, nei visas plotis. */
+	}
+}
+
+footer p {
+	display: inline-block;
+	color: lightgray;
+}
+footer h4 {
+	display: inline-block;
+	text-align: center;
+}
